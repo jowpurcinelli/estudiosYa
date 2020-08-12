@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-import Input from "../../components/Input/";
+
 
 import logoImg from '../../assets/images/logo.svg';
 import landingImg from "../../assets/images/landing.svg";

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "../../components/Header/";
+import PageHeader from "../../components/Header/";
 import Input from "../../components/Input/";
 import Textarea from "../../components/Textarea/";
 import Select from "../../components/Select/";
@@ -13,7 +13,7 @@ import "./styles.css";
 export default function TeacherForm() {
   return (
     <div className="container" id="page-teacher-form">
-      <Header
+      <PageHeader
         title="Que demas que vos quieras dar classes"
         description="O primeiro passo é preencher esse formulario de inscrição."
       />

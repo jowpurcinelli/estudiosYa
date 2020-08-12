@@ -20,7 +20,7 @@
     opacity: 0.6;
   }
   .page-header .top-bar-container > img {
-    height: 1.6rem;
+    height: 10.6rem;
   }
   .page-header .header-content {
     width: 90%;
@@ -63,4 +63,4 @@
     .page-header .header-content strong {
       max-width: 350px;
     }
-}
+  }
