@@ -20,30 +20,31 @@ import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
             <div className="container" id="page-landing-content">
                 <div className="logo-container">
                     <img src={logoImg} alt="estudiosYa" />
-                    <h2>Estudie donde esteas!</h2>
+                    <h2>
+                    Quedate en casa! Despreocupate y engresa en EstudiosYa</h2>
                   
                 </div>
             
 
                 <img
                     src={landingImg}
-                    alt="Plataforma de Estudos"
+                    alt="Plataforma de Estudios"
                     className="hero-image"
                 />
 
                 <div className="buttons-container">
                     <Link to="/study" className="study">
-                        <img src={studyIcon} alt="Estudar" />
-                        Estudar
+                        <img src={studyIcon} alt="Estudiar" />
+                        Estudiar
                     </Link>
                     <Link to="/give-classes" className="give-classes">
-                        <img src={giveClassesIcon} alt="Dar Aulas" />
-                        Dar Aulas
+                        <img src={giveClassesIcon} alt="Dar clases" />
+                        Dar clases
                     </Link>
                 </div>
                 
                 <span className="total-connections">
-                    Total de 200 conexões realizadas.{" "}
+                Estudie donde estes, ya somos mas de 2000 conexiones!{" "}
                     <img src={purpleHeartIcon} alt="Coração Roxo" />
                 </span>
             </div>

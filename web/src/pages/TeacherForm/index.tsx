@@ -1,19 +1,19 @@
-
-
 import React from "react";
 
-import "./styles.css";
-import PageHeader from "../../components/PageHeader/";
+import Header from "../../components/Header/";
 import Input from "../../components/Input/";
 import Textarea from "../../components/Textarea/";
 import Select from "../../components/Select/";
 
 import warningIcon from "../../assets/images/icons/warning.svg";
 
+
+import "./styles.css";
+
 export default function TeacherForm() {
   return (
     <div className="container" id="page-teacher-form">
-      <PageHeader
+      <Header
         title="Que demas que vos quieras dar classes"
         description="O primeiro passo é preencher esse formulario de inscrição."
       />
@@ -42,6 +42,7 @@ export default function TeacherForm() {
               { value: "Fisica", label: "Fisica" },
               { value: "Portugues", label: "Portugues" },
               { value: "Quimica", label: "Quimica" },
+              {value: "Filosofia", label: "Filosofia"},
             ]}
           />
           <Input name="cost" label="Cuesto de las classes por hora" />
