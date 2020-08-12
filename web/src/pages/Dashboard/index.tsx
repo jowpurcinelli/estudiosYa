@@ -21,7 +21,7 @@ import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
                 <div className="logo-container">
                     <img src={logoImg} alt="estudiosYa" />
                     <h2>
-                    Quedate en casa! Despreocupate y engresa en EstudiosYa</h2>
+                    Quedate en casa! Despreocupate y egresa en EstudiosYa</h2>
                   
                 </div>
             
