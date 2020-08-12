@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
+import Input from "../../components/Input/";
+
 import logoImg from '../../assets/images/logo.svg';
 import landingImg from "../../assets/images/landing.svg";
 import studyIcon from "../../assets/images/icons/study.svg";
@@ -10,13 +12,16 @@ import giveClassesIcon from "../../assets/images/icons/give-classes.svg";
 import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
 
 
-export default function Dashboard ( ) {
+
+
+ function Dashboard ( ) {
     return (
         <div id="page-landing">
             <div className="container" id="page-landing-content">
                 <div className="logo-container">
                     <img src={logoImg} alt="estudiosYa" />
                     <h2>Estudie donde esteas!</h2>
+                  
                 </div>
             
 
@@ -36,7 +41,7 @@ export default function Dashboard ( ) {
                         Dar Aulas
                     </Link>
                 </div>
-
+                
                 <span className="total-connections">
                     Total de 200 conexões realizadas.{" "}
                     <img src={purpleHeartIcon} alt="Coração Roxo" />
@@ -49,3 +54,4 @@ export default function Dashboard ( ) {
 
 
 
+export default Dashboard;

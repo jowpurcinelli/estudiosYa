@@ -1,17 +1,19 @@
+
+
 import React from "react";
 
 import "./styles.css";
-//import PageHeader from "../../components/PageHeader/";
-//import Input from "../../components/Input/";
-//import Textarea from "../../components/Textarea/";
-//import Select from "../../components/Select/";
+import PageHeader from "../../components/PageHeader/";
+import Input from "../../components/Input/";
+import Textarea from "../../components/Textarea/";
+import Select from "../../components/Select/";
 
 import warningIcon from "../../assets/images/icons/warning.svg";
 
 export default function TeacherForm() {
   return (
     <div className="container" id="page-teacher-form">
-      <div
+      <PageHeader
         title="Que demas que vos quieras dar classes"
         description="O primeiro passo é preencher esse formulario de inscrição."
       />
@@ -42,7 +44,7 @@ export default function TeacherForm() {
               { value: "Quimica", label: "Quimica" },
             ]}
           />
-          <Input name="cost" label="Cueto de las classes por hora" />
+          <Input name="cost" label="Cuesto de las classes por hora" />
         </fieldset>
 
         <fieldset>
@@ -82,3 +84,4 @@ export default function TeacherForm() {
     </div>
   );
 }
+
