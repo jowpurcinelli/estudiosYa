@@ -30,7 +30,22 @@
 
 
 ### Web Screenshot
-Here soon
+<p align="center">Dashboard</p>
+<img src="./images/estudiosyadashboard.png" alt="teachers" width="1056" height="646"/>
+
+
+<p align="center"> Lista de Profesores</p>
+
+<img src="./images/teacherListEstudiosYa.png" alt="teachers" width="774" height="652"/>
+
+
+
+<p align="center">
+Form para cadastro de los profesores</p>
+<img src="./images/listFormTeacherEstudiosYa.png" alt="teachers" width="383" height="652"/>
+
+
+
 
 ### Mobile Screenshot
 In here soon
