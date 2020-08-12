@@ -8,7 +8,7 @@
     <a href="README.md">Portuguese</a>
  </p>
 
-> :rocket: Project made to connect teachers to students
+> :rocket: Project made to connect teachers and students
 
 
 
