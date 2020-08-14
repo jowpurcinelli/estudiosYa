@@ -11,7 +11,7 @@
   }
   
   .logo-container img {
-    height: 10rem;
+    height: 30rem;
   }
   
   .hero-image {
@@ -20,26 +20,28 @@
   
   .logo-container {
     text-align: center;
-    margin-bottom: 3.2rem;
+    margin-bottom: 7.2rem;
   }
   
   .logo-container h2 {
-    font-weight: 120;
-    font-size: 0.4rem;
-    line-height: 4.6rem;
-    margin-top: 2.6rem;
+    position: fixed;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    margin-top: 0.1rem;
+    
   }
   
   .buttons-container {
-    display: flex;
+    display: inline;
     justify-content: center;
-    margin: 2.2rem 0;
+    margin: 0.2rem 0;
   }
   .buttons-container a {
-    width: 40rem;
-    height: 10.4rem;
-    border-radius: 0.8rem;
-    margin-right: 1.6rem;
+    width: 35rem;
+    height: 9.4rem;
+    border-radius: 1.8rem;
+    margin-right: 1.0rem;
     font: 700 2rem Archivo;
   
     display: flex;
@@ -55,7 +57,7 @@
     margin-right: 1.6rem;
   }
   .buttons-container a img {
-    margin-right: 4.4rem;
+    margin-right: 3.4rem;
   }
   .buttons-container a.study {
     background: var(--color-primary-lighter);
@@ -71,7 +73,7 @@
   }
   
   .total-connections {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
   
     display: flex;
     align-items: center;
