@@ -1,3 +1,6 @@
+<a align="center"> Autoral project under development </a>
+
+
 <p align="center">
    <img src="./images/studiosYa.png" alt="estudiosYa" width="280"/>
 </p>
