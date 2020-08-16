@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/styles/global.css';
+import './styles/global.ts';
 
 import  Routes from './routes'
 import Header from './components/Header';
