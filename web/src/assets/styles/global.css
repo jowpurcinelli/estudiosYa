@@ -1,68 +1,39 @@
-/*Colors defined in variables*/
+import { createGlobalStyle } from 'styled-components'
 
-:root {
-  --color-background: #f0f0f7;
-  --color-primary-lighter: #2282ff;
-  --color-primary-light: #033fe2;
-  --color-primary: #1856ff;
-  --color-primary-dark: #002ae7;
-  --color-primary-darker: #0a008f;
-  --color-secundary: #5e5e5e;
-  --color-secundary-dark: #00ca43;
-  --color-title-in-primary: #ffffff;
-  --color-text-in-primary: #000000;
-  --color-text-title: #32264d;
-  --color-text-complement: #9c98a6;
-  --color-text-base: #4c465e;
-  --color-line-in-white: #e6e6f0;
-  --color-input-background: #f8f8fc;
-  --color-button-text: #ffffff;
-  --color-box-base: #ffffff;
-  --color-box-footer: #fafafc;
-
-  font-size: 60%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body,
-#root {
-  height: 100vh;
-}
-
-body {
-  background: var(--color-background);
-}
-
-#root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-body,
-input,
-button,
-textarea {
-  font: 500 1.6rem Poppins;
-  color: var(--color-text-base);
-}
-/* 1 rem equals to 9.6px*/
-/*I am using rem metrics because if is needed to change all size, not only fonts, but inputs, images, etc... You just need to change the font-size variable of the :root
-This is good if the user  has the availability to change sizes of things in the web site*/
-
-.container {
-  width: 90vw;
-  max-width: 1000px;
-}
-
-@media (min-width: 400px) {
+export default createGlobalStyle`
   :root {
-    font-size: 52.5%;
+    font-size: 60%;
   }
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body, #root {
+    height: 100vh;
+  }
+  body {
+    background: ${props => props.theme.colors.background};
+    transition: all 1s ease 0s, transform 1s ease 0s;
+  }
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body,
+  input,
+  button,
+  textarea {
+    font: 500 1.6rem Poppins;
+    color:  ${props => props.theme.colors.textBase}
+  }
+  /* .container {
+    width: 90vw;
+    max-width: 700px;
+  } */
+  @media (min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }
