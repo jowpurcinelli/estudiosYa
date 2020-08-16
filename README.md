@@ -31,7 +31,7 @@
 
 ### Web Screenshot
 <p align="center">Dashboard</p>
-<img src="./images/estudiosyadashboard.png" alt="teachers" width="1056" height="646"/>
+<img src="./images/estudiosyadashboard.png" alt="teachers" width="774" height="652"/>
 
 
 <p align="center"> Lista de Profesores</p>
@@ -47,8 +47,11 @@ Form para cadastro de los profesores</p>
 
 
 
+
 ### Mobile Screenshot
-In here soon
+<img src="./images/DashboardMobile.png" alt="dashboard" width="280" height="720"/>
+<img src="./images/listFormTeacherEstudiosYaMobile.png" alt="teachers-form" width="280" height="720"/>
+<img src="./images/teacherListEstudiosYaMobile.png" alt="teachers-list" width="280" height="720"/>
 
 # :eyes: Demo Website
 You can acess the website at:     
