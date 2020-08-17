@@ -93,7 +93,7 @@ $ yarn install
 # Run Aplication
 $ yarn start
 ```
-Access API at http://localhost:3333/
+Access for now at http://localhost:3333/
 
 ### 💻 Run Web Project
 
