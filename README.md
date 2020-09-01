@@ -41,7 +41,7 @@
 
 <p align="center">
 Form para cadastro de los profesores</p>
-<img src="./images/listFormTeacherEstudiosYa.png" alt="teachers" width="420" height="280"/>
+<img src="./images/listFormTeacherEstudiosYa.png" alt="teachers" width="290" height="439"/>
 
 
 
