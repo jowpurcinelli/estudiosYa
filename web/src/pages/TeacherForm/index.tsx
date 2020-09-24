@@ -15,7 +15,7 @@ export default function TeacherForm() {
     <div className="container" id="page-teacher-form">
       <PageHeader
         title="Que demas que vos quieras dar classes"
-        description="O primeiro passo é preencher esse formulario de inscrição."
+        description="El primer paso es poner sus infos aca"
       />
 
       <main>
@@ -45,7 +45,7 @@ export default function TeacherForm() {
               {value: "Filosofia", label: "Filosofia"},
             ]}
           />
-          <Input name="cost" label="Cuesto de las classes por hora" />
+          <Input name="cost" label="Valor de las classes por hora" />
         </fieldset>
 
         <fieldset>

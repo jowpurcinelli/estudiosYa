@@ -53,7 +53,7 @@ textarea {
   color: var(--color-text-base);
 }
 /* 1 rem equals to 9.6px*/
-/*I am using rem metrics because if is needed to change all size, not only fonts, but inputs, images, etc... You just need to change the font-size variable of the :root
+/*I am using rem metrics for the reason that if it is needed to change all sizes, not only fonts, but inputs, images, etc... You just need to change the font-size variable of the :root
 This is good if the user  has the availability to change sizes of things in the web site*/
 
 .container {
