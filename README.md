@@ -16,7 +16,7 @@
 
 
 <div align="center">
-  <sub>Autoral React project. Built with ❤︎ by
+  <sub>Autoral React project. Built by
     <a href="https://github.com/jowpurcinelli">Pedro Purcinelli</a>
   </sub>
 </div>
