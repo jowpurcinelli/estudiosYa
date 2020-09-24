@@ -40,7 +40,7 @@
 
 
 <p align="center">
-Form para cadastro de los profesores</p>
+Teachers Form</p>
 <img src="./images/listFormTeacherEstudiosYa.png" alt="teachers" width="290" height="439"/>
 
 
