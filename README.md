@@ -39,22 +39,6 @@
 
 
 
-<p align="center">
-Teachers Form</p>
-<img src="./images/listFormTeacherEstudiosYa.png" alt="teachers" width="290" height="439"/>
-
-
-
-
-
-### Mobile Screenshot
-<img src="./images/DashboardMobile.png" alt="dashboard" width="280" height="720"/>
-<img src="./images/listFormTeacherEstudiosYaMobile.png" alt="teachers-form" width="280" height="720"/>
-<img src="./images/teacherListEstudiosYaMobile.png" alt="teachers-list" width="280" height="720"/>
-
-# :eyes: Demo Website
-You can acess the website at:     
-👉  here soon
 
 
 # :computer: Technologies
